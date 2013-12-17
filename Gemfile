@@ -9,6 +9,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'wkhtmltopdf-binary'
 gem 'wicked_pdf'
 gem 'haml'
+gem 'rails_12factor', group: :production
 
 group :doc do
   gem 'sdoc', require: false
