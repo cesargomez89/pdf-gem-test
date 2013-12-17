@@ -17,7 +17,7 @@ PdfGemTest::Application.configure do
 
   config.log_level = :info
 
-  config.assets.precompile += ['pdf.css', 'pdf.js']
+  config.assets.precompile += ['home.sass', 'test.pdf.haml']
 
   config.i18n.fallbacks = true
 

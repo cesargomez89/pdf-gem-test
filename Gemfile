@@ -7,6 +7,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'wkhtmltopdf-binary'
+gem 'wkhtmltopdf-heroku'
 gem 'wicked_pdf'
 gem 'haml'
 gem 'rails_12factor', group: :production
