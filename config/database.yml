@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  database: pdf_development
+  user: dev
+  password: dev
+  pool: 5
+  timeout: 5000
+
+test:
+  adapter: postgresql
+  database: pdf_test
+  user: dev
+  password: dev
+  pool: 5
+  timeout: 5000
+
+production:
+  adapter: postgresql
+  database: pdf_production
+  user: dev
+  password: dev
+  pool: 5
+  timeout: 5000
